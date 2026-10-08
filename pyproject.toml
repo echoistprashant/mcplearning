@@ -9,8 +9,10 @@ description = "Learning project for an MCP server built with FastMCP"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "fastmcp>=4.0.11",
-    "mcp>=2.3.0",
+    "fastmcp>=2.14,<3",
+    "langchain>=1.4.3",
+    "langchain-mcp-adapters>=0.3.1",
+    "mcp>=1.24,<2",
 ]
 
 [project.scripts]
